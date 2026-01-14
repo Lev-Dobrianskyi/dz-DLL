@@ -1,0 +1,16 @@
+#include <iostream>
+#include "Header.h"
+
+int main()
+{
+    std::string name;
+    std::string middleName;
+    std::string age;
+    std::cout << "Name: ";
+    std::cin >> name;
+    std::cout << "Middle name: ";
+    std::cin >> middleName;
+    std::cout << "Age: ";
+    std::cin >> age;
+    saveToFile(name, middleName, age);
+}
